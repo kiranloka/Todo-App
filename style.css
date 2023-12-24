@@ -1,0 +1,67 @@
+
+body{
+    background-color: #333;
+}
+.mainDiv{
+    background-color: #b7cfb8;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 1px;
+    border: 1px solid;
+    padding: 20px;
+    z-index: 1; 
+
+}
+
+h1{
+    font-family: 'Caveat', cursive;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 50px;
+
+}
+
+p{
+    font-style: italic;
+}
+.down{
+    margin-bottom: 10px;
+}
+
+.heading{
+    text-align: center;
+    
+}
+.mainArea {
+    font-family: 'Caveat', cursive;
+    margin-top: 20px;
+    backdrop-filter: blur(8px); /* Apply blur effect */
+    padding: 20px; /* Add padding for better visibility */
+}
+.card {
+    background-color: #333;
+    color: #fff;
+    margin-bottom: 10px; /* Add margin between cards */
+    position: relative; /* Create a positioning context for the delete button */
+}
+
+.card-body {
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 0 rem; /* Add space for the delete button */
+}
+.card-title {
+    font-weight: bold;
+    color: #999; /* Charcoal gray color */
+}
+.btn-danger {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 1.2em; /* Adjust the font size of the "x" icon */
+}
+.custom-width{
+    width: 25%;
+}
+
